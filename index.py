@@ -5,8 +5,8 @@ def say_hi(name: str) -> str:
 greet = say_hi("Qaadir")
 print(greet)
 
-def say_bay(name: str) -> str:
+def say_hello(name: str) -> str:
     return f"bay {name}"
 
-bye = say_bay("Qaadir")
+bye = say_hello("Qaadir")
 print(bye)
